@@ -24,14 +24,18 @@ This class models the Developmental Bayesian Model of Trust in Artificial Cognit
 Methods include the generation of the Episodic Memory by importance filtering and systematic resampling.
 """
 
+DIR_NAME=os.path.dirname(__file__)
 
 class BeliefNetwork:
     def __init__(self, name, dataset):
         self.name = name
+        print("HHI")
         self.dataset = DatasetParser(dataset)
+        print("Hello")
         self.parameters = self.dataset.estimate_bn_parameters()
         self.bn = None
         self.join_tree = None
+        
         # truth_a :
         # lie_a : sticker in A, informar said B
         # ecc...
@@ -48,6 +52,7 @@ class BeliefNetwork:
         self.build()
         self.calculate_pdf()
         self.entropy = self.get_entropy()
+
 
     # Xi
     def f_informant_belief(self, informant_belief):
@@ -302,10 +307,11 @@ class BeliefNetwork:
         return episodic_bn
 
     # Saves the BN's dataset for future reconstruction
-    def save(self, path=".\\datasets\\"):
+    def save(self, path=os.path.join(DIR_NAME,"datasets")):
         if not os.path.isdir(path):
             os.makedirs(path)
-        self.dataset.save(path + self.name + ".csv")
+        
+        self.dataset.save(os.path.join(path, self.name + ".csv"))
 
     # Calculates the probability distribution
     def calculate_pdf(self):

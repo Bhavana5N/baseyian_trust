@@ -10,39 +10,34 @@ DIR_NAME=os.path.dirname(__file__)
 class APITrust2:
 
 
-    def __init__(self, user, mature=True, simulation=False, withUpdate=False) -> None:
+    def __init__(self, user, mature=True, simulation=False, withUpdate=True) -> None:
         
         
         print("Familiarization Phase " + user)
         
         self.user = 0
+
         self.informant_vocabulary = ["reached", "not reached"]
         self.mature = mature
         self.simulation = simulation
         self.withUpdate = withUpdate
+        self.trust = 0
+        self.p = 0
+        self.robot=Robot(user)
+        #if  BeliefNetwork("Informer" + str(self.user))get_episode_dataset
        
-        self.robot=Robot()
-        demo_result=[]
-        demo_sample_episode = Episode([1,1,1,1], self.robot.get_and_inc_time())
-        demo_result.append(demo_sample_episode)
-        demo_sample_episode = Episode([0,0,0,0], self.robot.get_and_inc_time())
-        demo_result.append(demo_sample_episode)
-        demo_sample_episode = Episode([1,1,1,0], self.robot.get_and_inc_time())
-        demo_result.append(demo_sample_episode)
-        self.robot.beliefs.append(BeliefNetwork("Informer" + str(self.user), demo_result))
+        
         self.csv_file_path =os.path.join(DIR_NAME, user + "apibaseyianless.csv")
         self.cols = ["robot_beliefA", "robot_actionA", "informant_actionA", "informant_beliefA", \
                      "robot_beliefB", "robot_actionB", "informant_actionB", "informant_beliefB", "Robot Opinion",
-                     "Robot Goal Status", "Human Goal Status"]
+                     "Robot Goal Status", "Human Goal Status", "Trust", "Post P"]
         if not os.path.isfile(self.csv_file_path):
-
             self.data=pd.DataFrame([],columns=self.cols)
             self.data.to_csv(self.csv_file_path,index=False)
         else:
             self.data = pd.read_csv(self.csv_file_path)
         self.robot_opinion = ""
-    
-    
+        #BeliefNetwork("Informer" + str(self.user), demo_result).create_full_episodic_bn()
 
     def start(self, human_goal_status, robot_goal_status):
         if human_goal_status:
@@ -59,9 +54,9 @@ class APITrust2:
         #     repeat = "yes"
         #     while repeat == "yes":
         count = 1
-        while count<5:
-            self.decision_making(hint, goal_status, withUpdate=self.withUpdate)
-            count=count+1
+        #while count<random.randint(1, 10):
+        self.decision_making(hint, goal_status, withUpdate=self.withUpdate)
+         #   count=count+1
         # print("Do you want to repeat? Yes or no.")
         # repeat = random.choice(["Yes", "No"])
         # repeat = 'No'
@@ -70,9 +65,9 @@ class APITrust2:
         # print("Belief Estimation Phase")
         # repeat = "yes"
         count = 1
-        while count<5:
-            self.belief_estimation(goal_status)
-            count=count+1
+        #while count<random.randint(1, 10):
+        self.belief_estimation(goal_status)
+         #   count=count+1
         # print("Do you want to repeat? Yes or no.")
         # repeat = "yes"
         # repeat = 'No'
@@ -81,12 +76,13 @@ class APITrust2:
             
             
         print("The experiment has ended. Thank you for your participation.")
+        self.robot.save_beliefs()
         
 
     def get_node_values(self, hint, goal_status):
         informer = self.user
         outputs={'informant_belief': {'A': 0, 'B':0 }, 'informant_action': {'A': 0, 'B':0 },
-                 'robot_belief': {'A': 0, 'B':0 }, 'robot_action': {'A': 0, 'B':0 },}
+                 'robot_belief': {'A': 0, 'B':0 }, 'robot_action': {'A': 0, 'B':0 }}
         for node in self.robot.beliefs[informer].join_tree.get_bbn_nodes():
             potential = self.robot.beliefs[informer].join_tree.get_bbn_potential(node)
             print("Node:", node)
@@ -102,14 +98,17 @@ class APITrust2:
         a=-1
         b=1
         p=outputs['informant_action']['A']
+             
+        trust_p = ((b-a)*(p-min_x)/(max_x-min_x)) + a
+        print(trust_p, outputs, "fffff", p)
+        self.trust = trust_p
+        self.p=p
         self.data = pd.concat([self.data, pd.DataFrame([[outputs['robot_belief']["A"], outputs['robot_action']["A"],
         outputs['informant_belief']["A"],outputs['informant_action']["A"],\
         outputs['robot_belief']["B"],outputs['robot_action']["B"], \
         outputs['informant_belief']["B"],outputs['informant_action']["B"], self.robot_opinion,
-        hint, goal_status]], columns=self.cols)])
-        self.data.to_csv(self.csv_file_path, index=False)       
-        trust_p = ((b-a)*(p-min_x)/(max_x-min_x)) + a
-        print(trust_p, outputs, "fffff", p)
+        hint, goal_status, self.trust, self.p]], columns=self.cols)])
+        self.data.to_csv(self.csv_file_path, index=False)  
 
     # Decision Making Phase
     def decision_making(self, hint, goal_status, withUpdate=True):
@@ -175,6 +174,7 @@ class APITrust2:
                     new_data = [1, 1, 1, 1]
                 else:
                     new_data = [0, 0, 0, 0]
+            print(new_data, "kkkkkkk")
             new_episode = Episode(new_data, self.robot.get_and_inc_time())
             self.robot.beliefs[informer].update_belief(new_episode)
             # Add the symmetric espisode too (with the same time value)
@@ -204,8 +204,9 @@ class APITrust2:
     def calculate_trust():
         pass
 
+#for i in range(50):
 
-#APITrust2("user1").start(True, False)
+    #APITrust2("user1").start(False, False)
 for i in range(50):
     x=random.choice([True, False])
     y=random.choice([True, False])

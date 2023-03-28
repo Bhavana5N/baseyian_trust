@@ -4,21 +4,49 @@ from bayesianNetwork import BeliefNetwork
 import numpy as np
 import time
 import os
+from episode import Episode
+
 
 """
 This class models a physical Softbank robot (NAO or Pepper).
 Programmed on NAOqi version 2.5.5.
 """
 
+DIR_NAME=os.path.dirname(__file__)
 
 class Robot:
-    def __init__(self):
+    def __init__(self, user):
        
         
-        self.informants = 0
+        self.informants = user
+        name="Informer" + user + ".csv"
+        path_name=os.path.join(DIR_NAME,"datasets", name)
+        
         self.beliefs = []
         self.time = None
         self.load_time()
+        print(path_name, os.path.isfile(path_name), self.beliefs==[])
+        #if self.beliefs==[]:
+        if os.path.isfile(path_name):
+                print("Hiiiiiiii")
+                self.beliefs.append(BeliefNetwork("Informer" + str(user), path_name))
+        print(self.beliefs, "rrrrr")
+        if self.beliefs==[]:
+
+            demo_result=[]
+            demo_sample_episode = Episode([1,1,1,1], self.get_and_inc_time())
+            demo_result.append(demo_sample_episode)
+            demo_sample_episode = Episode([0,0,0,0], self.get_and_inc_time())
+            demo_result.append(demo_sample_episode)
+            demo_sample_episode = Episode([1,1,1,0], self.get_and_inc_time())
+            demo_result.append(demo_sample_episode)
+            demo_sample_episode = Episode([0,0,0,1], self.get_and_inc_time())
+            demo_result.append(demo_sample_episode)
+            self.beliefs.append(BeliefNetwork("Informer" + str(user), demo_result))
+        print(self.beliefs)
+        
+        self.load_time()
+        
 
 
 
@@ -33,7 +61,6 @@ class Robot:
         episodic_network = BeliefNetwork.create_episodic(self.beliefs, self.get_and_inc_time(), name=name)
         self.beliefs.append(episodic_network)
         # Updates the total of known informants
-        self.informants += 1    # This is done at the end because the label for the class is actually self.informants-1
 
 
 
@@ -56,13 +83,13 @@ class Robot:
 
     # Saves the beliefs
     def save_beliefs(self):
-        if not os.path.exists(".\\datasets"):
-            os.makedirs(".\\datasets")
+        if not os.path.exists(os.path.join(DIR_NAME,"datasets")):
+            os.makedirs(os.path.join(DIR_NAME,"datasets"))
         for belief in self.beliefs:
             belief.save()
 
     # Loads the beliefs
-    def load_beliefs(self, path=".\\datasets\\"):
+    def load_beliefs(self, path=os.path.join(DIR_NAME,"datasets")):
         # Resets previous beliefs
         self.beliefs = []
         i = 0

@@ -6,6 +6,7 @@ from episode import Episode
 """
 This class collects data samples given by list o by CSV file and performs Maximum Likelihood Estimation (MLE)
 """
+DIR_NAME=os.path.dirname(__file__)
 
 
 class DatasetParser:
@@ -25,8 +26,9 @@ class DatasetParser:
         ]
         self.trial_number = 1
         # If data contains a csv path, reads the data from it
+        print(data, "data", isinstance(data, str) and data[-3:] == "csv" and os.path.isfile(data))
         if isinstance(data, str) and data[-3:] == "csv" and os.path.isfile(data):
-            with open(data, 'rb') as csv_file:
+            with open(data, 'r') as csv_file:
                 reader = csv.reader(csv_file, delimiter=',')
                 episode_list = []
                 for row in reader:
@@ -34,7 +36,8 @@ class DatasetParser:
                     datalist = row[:-1]
                     time = row[-1]
                     # Transforms a list of strings in a list of ints
-                    int_datalist = map(int, datalist)
+                    int_datalist = list(map(int, datalist))
+                    #print(int_datalist, "eee")
                     episode_list.append(Episode(int_datalist, int(time)))
                 self.episode_dataset = episode_list
         # If data contains a list, it's pure data
@@ -90,9 +93,11 @@ class DatasetParser:
 
     # Saves a dataset on file. Can be used to reconstruct a BN re-estimating its parameters
     def save(self, filename):
-        with open(filename, 'wb') as myfile:
+        with open(filename, 'w') as myfile:
+            #print(filename)
             wr = csv.writer(myfile, delimiter=",")
             for episode in self.episode_dataset:
+                #print(episode, "gggg")
                 output = list(episode.raw_data)
                 output.append(episode.time)
                 wr.writerow(output)

@@ -1,0 +1,6790 @@
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e034f0>, <episode.Episode object at 0x116e03580>, <episode.Episode object at 0x116e035b0>, <episode.Episode object at 0x116e03610>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e03670>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Node: 1|informant_action|A,B
+Values:
+1=A|0.66667
+1=B|0.33333
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.66667
+1=B|0.33333
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.66667
+1=B|0.33333
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.66667
+1=B|0.33333
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+0.6666666666666665 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}, 'robot_belief': {'A': 1.0, 'B': 0.0}, 'robot_action': {'A': 1.0, 'B': 0.0}} fffff 0.6666666666666666
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e034c0>, <episode.Episode object at 0x116e03910>, <episode.Episode object at 0x116e03940>, <episode.Episode object at 0x116e03a60>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e03a00>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+-2.0 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}, 'robot_belief': {'A': 0.5, 'B': 0.5}, 'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}} fffff 0.0
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e03a00>, <episode.Episode object at 0x116e03ac0>, <episode.Episode object at 0x116e03910>, <episode.Episode object at 0x116e03940>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e03a60>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+2.0 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}, 'robot_belief': {'A': 0.5, 'B': 0.5}, 'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}} fffff 1.0
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e03a60>, <episode.Episode object at 0x116e034c0>, <episode.Episode object at 0x116e03ac0>, <episode.Episode object at 0x116e03910>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e03940>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I trusted you, but you tricked me.
+frustrated
+Node: 1|informant_action|A,B
+Values:
+1=A|0.33333
+1=B|0.66667
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I know the staus is on the B.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I know the staus is on the B.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.33333
+1=B|0.66667
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I know the staus is on the B.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.33333
+1=B|0.66667
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+-0.6666666666666667 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}, 'robot_belief': {'A': 0.0, 'B': 1.0}, 'robot_action': {'A': 0.0, 'B': 1.0}} fffff 0.3333333333333333
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e03940>, <episode.Episode object at 0x116e03a00>, <episode.Episode object at 0x116e034c0>, <episode.Episode object at 0x116e03ac0>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e03910>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+-2.0 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}, 'robot_belief': {'A': 0.5, 'B': 0.5}, 'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}} fffff 0.0
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e453f0>, <episode.Episode object at 0x116e46d40>, <episode.Episode object at 0x116e476a0>, <episode.Episode object at 0x116e47f70>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e47eb0>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you, but you tricked me.
+frustrated
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}}
+I know the staus is on the B.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+-2.0 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}, 'robot_belief': {'A': 0.0, 'B': 1.0}, 'robot_action': {'A': 0.0, 'B': 1.0}} fffff 0.0
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e461d0>, <episode.Episode object at 0x116e45f90>, <episode.Episode object at 0x116e46b00>, <episode.Episode object at 0x116e44d30>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e47eb0>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you, but you tricked me.
+frustrated
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}}
+I know the staus is on the B.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}}
+I know the staus is on the B.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+-2.0 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}, 'robot_belief': {'A': 0.5, 'B': 0.5}, 'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}} fffff 0.0
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e46380>, <episode.Episode object at 0x116e45450>, <episode.Episode object at 0x116e45000>, <episode.Episode object at 0x116e45090>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e45210>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Node: 1|informant_action|A,B
+Values:
+1=A|0.66667
+1=B|0.33333
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.66667
+1=B|0.33333
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.66667
+1=B|0.33333
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+0.6666666666666665 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}, 'robot_belief': {'A': 1.0, 'B': 0.0}, 'robot_action': {'A': 1.0, 'B': 0.0}} fffff 0.6666666666666666
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e036d0>, <episode.Episode object at 0x116e03940>, <episode.Episode object at 0x116e03910>, <episode.Episode object at 0x116e03610>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e03490>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+-2.0 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}, 'robot_belief': {'A': 0.5, 'B': 0.5}, 'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}} fffff 0.0
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e03490>, <episode.Episode object at 0x116e034c0>, <episode.Episode object at 0x116e03940>, <episode.Episode object at 0x116e03910>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e03610>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I didn't trust you, but I was wrong. Sorry.
+ashamed
+Node: 1|informant_action|A,B
+Values:
+1=A|0.33333
+1=B|0.66667
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I know the staus is on the B.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I know the staus is on the B.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.33333
+1=B|0.66667
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I know the staus is on the B.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.33333
+1=B|0.66667
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+-0.6666666666666667 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}, 'robot_belief': {'A': 0.0, 'B': 1.0}, 'robot_action': {'A': 0.0, 'B': 1.0}} fffff 0.3333333333333333
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e03610>, <episode.Episode object at 0x116e036d0>, <episode.Episode object at 0x116e034c0>, <episode.Episode object at 0x116e03940>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e03910>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I was right not to trust you.
+indicate
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+2.0 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}, 'robot_belief': {'A': 1.0, 'B': 0.0}, 'robot_action': {'A': 1.0, 'B': 0.0}} fffff 1.0
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e03910>, <episode.Episode object at 0x116e03490>, <episode.Episode object at 0x116e036d0>, <episode.Episode object at 0x116e034c0>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e03940>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Node: 1|informant_action|A,B
+Values:
+1=A|0.66667
+1=B|0.33333
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.66667
+1=B|0.33333
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.66667
+1=B|0.33333
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+0.6666666666666665 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}, 'robot_belief': {'A': 1.0, 'B': 0.0}, 'robot_action': {'A': 1.0, 'B': 0.0}} fffff 0.6666666666666666
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e03940>, <episode.Episode object at 0x116e03610>, <episode.Episode object at 0x116e03490>, <episode.Episode object at 0x116e036d0>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e034c0>]
+Decision Making Phase
+Node: 1|informant_action|A,B
+Values:
+1=A|0.66667
+1=B|0.33333
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+-2.220446049250313e-16 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}, 'robot_belief': {'A': 0.5, 'B': 0.5}, 'robot_action': {'A': 0.49999999999999994, 'B': 0.5}} fffff 0.49999999999999994
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e034c0>, <episode.Episode object at 0x116e03910>, <episode.Episode object at 0x116e03610>, <episode.Episode object at 0x116e03490>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e036d0>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I was right not to trust you.
+indicate
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I was right not to trust you.
+indicate
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+2.0 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}, 'robot_belief': {'A': 0.5, 'B': 0.5}, 'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}} fffff 1.0
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e036d0>, <episode.Episode object at 0x116e03940>, <episode.Episode object at 0x116e03910>, <episode.Episode object at 0x116e03610>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e03490>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+-2.0 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}, 'robot_belief': {'A': 0.5, 'B': 0.5}, 'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}} fffff 0.0
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e03490>, <episode.Episode object at 0x116e034c0>, <episode.Episode object at 0x116e03940>, <episode.Episode object at 0x116e03910>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e03610>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I didn't trust you, but I was wrong. Sorry.
+ashamed
+Node: 1|informant_action|A,B
+Values:
+1=A|0.33333
+1=B|0.66667
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I know the staus is on the B.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I know the staus is on the B.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.33333
+1=B|0.66667
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I know the staus is on the B.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.33333
+1=B|0.66667
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+-0.6666666666666667 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}, 'robot_belief': {'A': 0.0, 'B': 1.0}, 'robot_action': {'A': 0.0, 'B': 1.0}} fffff 0.3333333333333333
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e03610>, <episode.Episode object at 0x116e036d0>, <episode.Episode object at 0x116e034c0>, <episode.Episode object at 0x116e03940>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e03910>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I didn't trust you, but I was wrong. Sorry.
+ashamed
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+-2.220446049250313e-16 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}, 'robot_belief': {'A': 0.5, 'B': 0.5}, 'robot_action': {'A': 0.49999999999999994, 'B': 0.5}} fffff 0.49999999999999994
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e03910>, <episode.Episode object at 0x116e03490>, <episode.Episode object at 0x116e036d0>, <episode.Episode object at 0x116e034c0>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e03940>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I didn't trust you, but I was wrong. Sorry.
+ashamed
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you, but you tricked me.
+frustrated
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+2.0 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}, 'robot_belief': {'A': 0.5, 'B': 0.5}, 'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}} fffff 1.0
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e03940>, <episode.Episode object at 0x116e03610>, <episode.Episode object at 0x116e03490>, <episode.Episode object at 0x116e036d0>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e034c0>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I was right not to trust you.
+indicate
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I was right not to trust you.
+indicate
+Node: 1|informant_action|A,B
+Values:
+1=A|0.66667
+1=B|0.33333
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.66667
+1=B|0.33333
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+0.6666666666666665 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}, 'robot_belief': {'A': 1.0, 'B': 0.0}, 'robot_action': {'A': 1.0, 'B': 0.0}} fffff 0.6666666666666666
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e034c0>, <episode.Episode object at 0x116e03910>, <episode.Episode object at 0x116e03610>, <episode.Episode object at 0x116e03490>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e036d0>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I was right not to trust you.
+indicate
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+2.0 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}, 'robot_belief': {'A': 1.0, 'B': 0.0}, 'robot_action': {'A': 1.0, 'B': 0.0}} fffff 1.0
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e036d0>, <episode.Episode object at 0x116e03940>, <episode.Episode object at 0x116e03910>, <episode.Episode object at 0x116e03610>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e03490>]
+Decision Making Phase
+Node: 1|informant_action|A,B
+Values:
+1=A|0.33333
+1=B|0.66667
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I know the staus is on the B.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I know the staus is on the B.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.33333
+1=B|0.66667
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I know the staus is on the B.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I know the staus is on the B.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+-2.220446049250313e-16 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}, 'robot_belief': {'A': 0.5, 'B': 0.5}, 'robot_action': {'A': 0.49999999999999994, 'B': 0.5}} fffff 0.49999999999999994
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e46a10>, <episode.Episode object at 0x116e476a0>, <episode.Episode object at 0x116e46590>, <episode.Episode object at 0x116e46b90>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e47be0>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+-2.220446049250313e-16 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}, 'robot_belief': {'A': 0.5, 'B': 0.5}, 'robot_action': {'A': 0.49999999999999994, 'B': 0.5}} fffff 0.49999999999999994
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e469e0>, <episode.Episode object at 0x116e47790>, <episode.Episode object at 0x116e444c0>, <episode.Episode object at 0x116e44a30>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e47be0>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I trusted you, but you tricked me.
+frustrated
+Node: 1|informant_action|A,B
+Values:
+1=A|0.33333
+1=B|0.66667
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I know the staus is on the B.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.33333
+1=B|0.66667
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+-0.6666666666666667 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}, 'robot_belief': {'A': 0.0, 'B': 1.0}, 'robot_action': {'A': 0.0, 'B': 1.0}} fffff 0.3333333333333333
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e46230>, <episode.Episode object at 0x116e47e20>, <episode.Episode object at 0x116e44910>, <episode.Episode object at 0x116e446d0>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e47be0>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I didn't trust you, but I was wrong. Sorry.
+ashamed
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I didn't trust you, but I was wrong. Sorry.
+ashamed
+Node: 1|informant_action|A,B
+Values:
+1=A|0.33333
+1=B|0.66667
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I know the staus is on the B.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I know the staus is on the B.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+-2.220446049250313e-16 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}, 'robot_belief': {'A': 0.5, 'B': 0.5}, 'robot_action': {'A': 0.49999999999999994, 'B': 0.5}} fffff 0.49999999999999994
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e46b60>, <episode.Episode object at 0x116e45450>, <episode.Episode object at 0x116e441f0>, <episode.Episode object at 0x116e44190>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e44130>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I didn't trust you, but I was wrong. Sorry.
+ashamed
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I didn't trust you, but I was wrong. Sorry.
+ashamed
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I didn't trust you, but I was wrong. Sorry.
+ashamed
+Node: 1|informant_action|A,B
+Values:
+1=A|0.33333
+1=B|0.66667
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I know the staus is on the B.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I know the staus is on the B.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+-2.220446049250313e-16 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}, 'robot_belief': {'A': 0.5, 'B': 0.5}, 'robot_action': {'A': 0.49999999999999994, 'B': 0.5}} fffff 0.49999999999999994
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e44130>, <episode.Episode object at 0x116e47a30>, <episode.Episode object at 0x116e46470>, <episode.Episode object at 0x116e468f0>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e47e20>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I didn't trust you, but I was wrong. Sorry.
+ashamed
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you, but you tricked me.
+frustrated
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the B.
+I believe you think the sticker is on the A
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the B.
+I believe you think the sticker is on the A
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the B.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+2.0 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}, 'robot_belief': {'A': 0.0, 'B': 1.0}, 'robot_action': {'A': 0.0, 'B': 1.0}} fffff 1.0
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e44a60>, <episode.Episode object at 0x116e46d70>, <episode.Episode object at 0x116e45a20>, <episode.Episode object at 0x116e47f40>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e47e20>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you, but you tricked me.
+frustrated
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the B.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the B.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+2.0 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}, 'robot_belief': {'A': 0.5, 'B': 0.5}, 'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}} fffff 1.0
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e450c0>, <episode.Episode object at 0x116e47f10>, <episode.Episode object at 0x116e44880>, <episode.Episode object at 0x116e456c0>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e463e0>]
+Decision Making Phase
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+-2.220446049250313e-16 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}, 'robot_belief': {'A': 0.5, 'B': 0.5}, 'robot_action': {'A': 0.49999999999999994, 'B': 0.5}} fffff 0.49999999999999994
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e036a0>, <episode.Episode object at 0x116e03b20>, <episode.Episode object at 0x116e03a90>, <episode.Episode object at 0x116e03be0>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e03f70>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I was right not to trust you.
+indicate
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+2.0 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}, 'robot_belief': {'A': 0.5, 'B': 0.5}, 'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}} fffff 1.0
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e03f70>, <episode.Episode object at 0x116e03910>, <episode.Episode object at 0x116e03af0>, <episode.Episode object at 0x116e03d60>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e039d0>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you, but you tricked me.
+frustrated
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+2.0 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}, 'robot_belief': {'A': 0.5, 'B': 0.5}, 'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}} fffff 1.0
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e039d0>, <episode.Episode object at 0x116e03a30>, <episode.Episode object at 0x116e03910>, <episode.Episode object at 0x116e03af0>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e03d60>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Node: 1|informant_action|A,B
+Values:
+1=A|0.66667
+1=B|0.33333
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+-2.220446049250313e-16 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}, 'robot_belief': {'A': 0.5, 'B': 0.5}, 'robot_action': {'A': 0.49999999999999994, 'B': 0.5}} fffff 0.49999999999999994
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e03d60>, <episode.Episode object at 0x116e03f70>, <episode.Episode object at 0x116e03a30>, <episode.Episode object at 0x116e03910>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e03af0>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I didn't trust you, but I was wrong. Sorry.
+ashamed
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I didn't trust you, but I was wrong. Sorry.
+ashamed
+Node: 1|informant_action|A,B
+Values:
+1=A|0.33333
+1=B|0.66667
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I know the staus is on the B.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I know the staus is on the B.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+-2.220446049250313e-16 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}, 'robot_belief': {'A': 0.5, 'B': 0.5}, 'robot_action': {'A': 0.49999999999999994, 'B': 0.5}} fffff 0.49999999999999994
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e03af0>, <episode.Episode object at 0x116e039d0>, <episode.Episode object at 0x116e03f70>, <episode.Episode object at 0x116e03a30>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e03910>]
+Decision Making Phase
+Node: 1|informant_action|A,B
+Values:
+1=A|0.66667
+1=B|0.33333
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.66667
+1=B|0.33333
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.66667
+1=B|0.33333
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+0.6666666666666665 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}, 'robot_belief': {'A': 1.0, 'B': 0.0}, 'robot_action': {'A': 1.0, 'B': 0.0}} fffff 0.6666666666666666
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e44b50>, <episode.Episode object at 0x116e47970>, <episode.Episode object at 0x116e44af0>, <episode.Episode object at 0x116e46e60>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e479d0>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I was right not to trust you.
+indicate
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+2.0 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}, 'robot_belief': {'A': 1.0, 'B': 0.0}, 'robot_action': {'A': 1.0, 'B': 0.0}} fffff 1.0
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e03a00>, <episode.Episode object at 0x116e03f70>, <episode.Episode object at 0x116e03730>, <episode.Episode object at 0x116e03f40>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e03ee0>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I didn't trust you, but I was wrong. Sorry.
+ashamed
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I didn't trust you, but I was wrong. Sorry.
+ashamed
+Node: 1|informant_action|A,B
+Values:
+1=A|0.33333
+1=B|0.66667
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I know the staus is on the B.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I know the staus is on the B.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.33333
+1=B|0.66667
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I know the staus is on the B.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.33333
+1=B|0.66667
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+-0.6666666666666667 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}, 'robot_belief': {'A': 0.0, 'B': 1.0}, 'robot_action': {'A': 0.0, 'B': 1.0}} fffff 0.3333333333333333
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e03ee0>, <episode.Episode object at 0x116e03bb0>, <episode.Episode object at 0x116e03f70>, <episode.Episode object at 0x116e03730>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e03f40>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you, but you tricked me.
+frustrated
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}}
+I know the staus is on the B.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}}
+I know the staus is on the B.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}}
+I know the staus is on the B.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}}
+I know the staus is on the B.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}}
+I know the staus is on the B.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+-2.0 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}, 'robot_belief': {'A': 0.0, 'B': 1.0}, 'robot_action': {'A': 0.0, 'B': 1.0}} fffff 0.0
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e03f40>, <episode.Episode object at 0x116e03a00>, <episode.Episode object at 0x116e03bb0>, <episode.Episode object at 0x116e03f70>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e03730>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+-2.0 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}, 'robot_belief': {'A': 1.0, 'B': 0.0}, 'robot_action': {'A': 1.0, 'B': 0.0}} fffff 0.0
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e03730>, <episode.Episode object at 0x116e03ee0>, <episode.Episode object at 0x116e03a00>, <episode.Episode object at 0x116e03bb0>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e03f70>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Node: 1|informant_action|A,B
+Values:
+1=A|0.66667
+1=B|0.33333
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.66667
+1=B|0.33333
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.66667
+1=B|0.33333
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+0.6666666666666665 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}, 'robot_belief': {'A': 1.0, 'B': 0.0}, 'robot_action': {'A': 1.0, 'B': 0.0}} fffff 0.6666666666666666
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e03f70>, <episode.Episode object at 0x116e03f40>, <episode.Episode object at 0x116e03ee0>, <episode.Episode object at 0x116e03a00>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e03bb0>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I was right not to trust you.
+indicate
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+2.0 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}, 'robot_belief': {'A': 0.5, 'B': 0.5}, 'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}} fffff 1.0
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e03bb0>, <episode.Episode object at 0x116e03730>, <episode.Episode object at 0x116e03f40>, <episode.Episode object at 0x116e03ee0>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e03a00>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I was right not to trust you.
+indicate
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+2.0 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}, 'robot_belief': {'A': 0.5, 'B': 0.5}, 'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}} fffff 1.0
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e03a00>, <episode.Episode object at 0x116e03f70>, <episode.Episode object at 0x116e03730>, <episode.Episode object at 0x116e03f40>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e03ee0>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you, but you tricked me.
+frustrated
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+2.0 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}, 'robot_belief': {'A': 0.5, 'B': 0.5}, 'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}} fffff 1.0
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e46ef0>, <episode.Episode object at 0x116e455d0>, <episode.Episode object at 0x116e47a00>, <episode.Episode object at 0x116e45900>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e46d40>]
+Decision Making Phase
+Node: 1|informant_action|A,B
+Values:
+1=A|0.66667
+1=B|0.33333
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.66667
+1=B|0.33333
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.66667
+1=B|0.33333
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+0.6666666666666665 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}, 'robot_belief': {'A': 1.0, 'B': 0.0}, 'robot_action': {'A': 1.0, 'B': 0.0}} fffff 0.6666666666666666
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e03af0>, <episode.Episode object at 0x116e03b20>, <episode.Episode object at 0x116e03f40>, <episode.Episode object at 0x116e03730>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e03f70>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I trusted you, but you tricked me.
+frustrated
+Node: 1|informant_action|A,B
+Values:
+1=A|0.33333
+1=B|0.66667
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I know the staus is on the B.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I know the staus is on the B.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+-2.220446049250313e-16 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}, 'robot_belief': {'A': 0.5, 'B': 0.5}, 'robot_action': {'A': 0.49999999999999994, 'B': 0.5}} fffff 0.49999999999999994
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e03f70>, <episode.Episode object at 0x116e039d0>, <episode.Episode object at 0x116e03b20>, <episode.Episode object at 0x116e03f40>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e03730>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I trusted you, but you tricked me.
+frustrated
+Node: 1|informant_action|A,B
+Values:
+1=A|0.33333
+1=B|0.66667
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I know the staus is on the B.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.33333
+1=B|0.66667
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+-0.6666666666666667 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}, 'robot_belief': {'A': 0.0, 'B': 1.0}, 'robot_action': {'A': 0.0, 'B': 1.0}} fffff 0.3333333333333333
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e03730>, <episode.Episode object at 0x116e03af0>, <episode.Episode object at 0x116e039d0>, <episode.Episode object at 0x116e03b20>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e03f40>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I didn't trust you, but I was wrong. Sorry.
+ashamed
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you, but you tricked me.
+frustrated
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the B.
+I believe you think the sticker is on the A
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the B.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the B.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the B.
+I believe you think the sticker is on the A
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the B.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the B.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+2.0 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}, 'robot_belief': {'A': 0.5, 'B': 0.5}, 'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}} fffff 1.0
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116ea8a60>, <episode.Episode object at 0x116eabf10>, <episode.Episode object at 0x116ea9f60>, <episode.Episode object at 0x116ea8520>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116ea9930>]
+Decision Making Phase
+Node: 1|informant_action|A,B
+Values:
+1=A|0.33333
+1=B|0.66667
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I know the staus is on the B.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.33333
+1=B|0.66667
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+-0.6666666666666667 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}, 'robot_belief': {'A': 0.0, 'B': 1.0}, 'robot_action': {'A': 0.0, 'B': 1.0}} fffff 0.3333333333333333
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116eab8b0>, <episode.Episode object at 0x116ea9030>, <episode.Episode object at 0x116ea9300>, <episode.Episode object at 0x116ea80a0>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116ea9ea0>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+-2.0 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}, 'robot_belief': {'A': 0.5, 'B': 0.5}, 'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}} fffff 0.0
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116ea9ea0>, <episode.Episode object at 0x116eab8b0>, <episode.Episode object at 0x116eab280>, <episode.Episode object at 0x116ea9930>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116ea9270>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Node: 1|informant_action|A,B
+Values:
+1=A|0.66667
+1=B|0.33333
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.66667
+1=B|0.33333
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+-2.220446049250313e-16 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.49999999999999994, 'B': 0.5}, 'robot_belief': {'A': 0.5, 'B': 0.5}, 'robot_action': {'A': 0.49999999999999994, 'B': 0.5}} fffff 0.49999999999999994
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116ea9270>, <episode.Episode object at 0x116ea86d0>, <episode.Episode object at 0x116eab8b0>, <episode.Episode object at 0x116eab280>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116ea9930>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I didn't trust you, but I was wrong. Sorry.
+ashamed
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you, but you tricked me.
+frustrated
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I didn't trust you, but I was wrong. Sorry.
+ashamed
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'robot_action': {'A': 0.6666666666666666, 'B': 0.3333333333333333}}
+I trusted you, but you tricked me.
+frustrated
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the B.
+I believe you think the sticker is on the A
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.66667
+3=B|0.33333
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the B.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}}
+I know the staus is on the B.
+I believe you think the sticker is on the B
+I also believe you would point A to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|1.00000
+1=B|0.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.00000
+2=B|1.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.00000
+3=B|1.00000
+2.0 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 1.0, 'B': 0.0}, 'robot_belief': {'A': 0.0, 'B': 1.0}, 'robot_action': {'A': 0.0, 'B': 1.0}} fffff 1.0
+The experiment has ended. Thank you for your participation.
+Familiarization Phase user1
+.\datasets\Informeruser1.csv True True
+HHI
+[<episode.Episode object at 0x116e47550>, <episode.Episode object at 0x116e47fa0>, <episode.Episode object at 0x116e45900>, <episode.Episode object at 0x116e44160>] data False
+Hello
+[1, 1, 1, 1]
+[0, 0, 0, 0]
+[1, 1, 1, 0]
+[0, 0, 0, 1]
+{'Xr': [0.5, 0.5], 'Yr': [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]], 'Xi': [0.5, 0.5], 'Yi': [[0.5, 0.5], [0.5, 0.5]]}
+[0.5, 0.5] [[0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666], [0.6666666666666666, 0.3333333333333333], [0.3333333333333333, 0.6666666666666666]] [[0.5, 0.5], [0.5, 0.5]] [0.5, 0.5]
+[0.5, 0.5] [[0.5, 0.5], [0.5, 0.5]]
+0|informant_belief|A,B
+1|informant_action|A,B
+2|robot_belief|A,B
+3|robot_action|A,B
+0->1
+2->3
+1->3
+[<bayesianNetwork.BeliefNetwork object at 0x116e47a30>]
+Decision Making Phase
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.50000
+1=B|0.50000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.50000
+3=B|0.50000
+{'robot_action': {'A': 0.49999999999999994, 'B': 0.5}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Can you suggest me the Goal status? A or B?
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'robot_action': {'A': 0.3333333333333333, 'B': 0.6666666666666666}}
+I trusted you and your suggestion was correct. Thank you!
+friendly
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|0.50000
+2=B|0.50000
+Node: 3|robot_action|A,B
+Values:
+3=A|0.33333
+3=B|0.66667
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the B
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+{'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}}
+I know the staus is on the A.
+I believe you think the sticker is on the A
+I also believe you would point B to me.
+Node: 1|informant_action|A,B
+Values:
+1=A|0.00000
+1=B|1.00000
+Node: 0|informant_belief|A,B
+Values:
+0=A|0.50000
+0=B|0.50000
+Node: 2|robot_belief|A,B
+Values:
+2=A|1.00000
+2=B|0.00000
+Node: 3|robot_action|A,B
+Values:
+3=A|1.00000
+3=B|0.00000
+-2.0 {'informant_belief': {'A': 0.5, 'B': 0.5}, 'informant_action': {'A': 0.0, 'B': 1.0}, 'robot_belief': {'A': 1.0, 'B': 0.0}, 'robot_action': {'A': 1.0, 'B': 0.0}} fffff 0.0
+The experiment has ended. Thank you for your participation.
