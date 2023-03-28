@@ -155,19 +155,19 @@ class BeliefNetwork:
         print(self.bn)
         self.join_tree = InferenceController.apply(self.bn)
         # Set node positions
-        # pos = {0: (-1, 2), 1: (-1, 0.5), 2: (1, 0.5), 3: (0, -1)}
+        pos = {0: (-1, 2), 1: (-1, 0.5), 2: (1, 0.5), 3: (0, -1)}
 
-        # # Set options for graph looks
-        # options = {
-        #     "font_size": 16,
-        #     "node_size": 4000,
-        #     "node_color": "white",
-        #     "edgecolors": "black",
-        #     "edge_color": "red",
-        #     "linewidths": 5,
-        #     "width": 5,}
+        # Set options for graph looks
+        options = {
+            "font_size": 16,
+            "node_size": 20000,
+            "node_color": "white",
+            "edgecolors": "black",
+            "edge_color": "red",
+            "linewidths": 5,
+            "width": 5,}
             
-        # # Generate graph
+        # Generate graph
         # n, d = self.bn.to_nx_graph()
         # nx.draw(n, with_labels=True, labels=d, pos=pos, **options)
 
@@ -415,8 +415,28 @@ class BeliefNetwork:
     # unreliability and vice versa.
     def get_reliability(self):
         # Evaluate the trustworthiness of the network (as for Belief Estimation)
-        be_query = self.join_tree.query(self.bn, ['informant_action'], {'robot_belief':'A', 'robot_action':'A'})
-        x = be_query['informant_action', 'A']
+        outputs={'informant_belief': {'A': 0, 'B':0 }, 'informant_action': {'A': 0, 'B':0 },
+                 'robot_belief': {'A': 0, 'B':0 }, 'robot_action': {'A': 0, 'B':0 }}
+        def evidence(ev, nod, cat, val):
+                ev = EvidenceBuilder() \
+                .with_node(self.join_tree.get_bbn_node_by_name(nod)) \
+                .with_evidence(cat, val) \
+                .build()
+                self.join_tree.set_observation(ev)
+        evidence('ev1', 'robot_belief', 'A', 1.0)
+        evidence('ev2', 'robot_action', 'A', 1.0)
+        for node in self.join_tree.get_bbn_nodes():
+            potential = self.join_tree.get_bbn_potential(node)
+            print("Node:", node)
+            print("Values:")
+            print(potential)
+            if node.to_dict()['variable']['name'] in  outputs:
+                outputs[node.to_dict()['variable']['name']][potential.entries[0].get_entry_keys()[0][1]] = potential.entries[0].get_kv()[1]#, help(node))
+
+                outputs[node.to_dict()['variable']['name']][potential.entries[1].get_entry_keys()[0][1]] = potential.entries[1].get_kv()[1]#, help(node))
+        
+       # be_query = self.join_tree.query(self.bn, ['informant_action'], {'robot_belief':'A', 'robot_action':'A'})
+        x = outputs['informant_action']['A']
         # Scale it to [-1, +1]
         a = -1
         b = 1

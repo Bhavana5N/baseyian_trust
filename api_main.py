@@ -99,7 +99,8 @@ class APITrust2:
         b=1
         p=outputs['informant_action']['A']
              
-        trust_p = ((b-a)*(p-min_x)/(max_x-min_x)) + a
+        #trust_p = ((b-a)*(p-min_x)/(max_x-min_x)) + a
+        trust_p = self.robot.beliefs[informer].get_reliability()
         print(trust_p, outputs, "fffff", p)
         self.trust = trust_p
         self.p=p
