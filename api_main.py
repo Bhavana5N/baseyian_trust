@@ -205,10 +205,10 @@ class APITrust2:
     def calculate_trust():
         pass
 
-#for i in range(50):
+# #for i in range(50):
 
-    #APITrust2("user1").start(False, False)
-for i in range(50):
-    x=random.choice([True, False])
-    y=random.choice([True, False])
-    APITrust2("user1").start(x, y)
+#     #APITrust2("user1").start(False, False)
+# for i in range(50):
+#     x=random.choice([True, False])
+#     y=random.choice([True, False])
+#     APITrust2("user1").start(x, y)
