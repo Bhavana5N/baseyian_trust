@@ -21,7 +21,7 @@ class APITrust2:
         self.mature = mature
         self.simulation = simulation
         self.withUpdate = withUpdate
-        self.trust = 0
+        self.trust = 1
         self.p = 0
         self.robot=Robot(user)
         #if  BeliefNetwork("Informer" + str(self.user))get_episode_dataset
