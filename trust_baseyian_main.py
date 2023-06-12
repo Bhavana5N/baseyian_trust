@@ -28,7 +28,7 @@ class APITrust2:
        
         
         self.csv_file_path =os.path.join(DIR_NAME, user + "apibaseyianless.csv")
-        self.cols = ["robot_beliefA", "robot_actionA", "informant_actionA", "informant_beliefA", \
+        self.cols = ["Goal","robot_beliefA", "robot_actionA", "informant_actionA", "informant_beliefA", \
                      "robot_beliefB", "robot_actionB", "informant_actionB", "informant_beliefB", "Robot Opinion",
                      "Robot Goal Status", "Human Goal Status", "Trust", "Post P"]
         if not os.path.isfile(self.csv_file_path):
@@ -39,7 +39,7 @@ class APITrust2:
         self.robot_opinion = ""
         #BeliefNetwork("Informer" + str(self.user), demo_result).create_full_episodic_bn()
 
-    def start(self, human_goal_status, robot_goal_status):
+    def start(self, human_goal_status, robot_goal_status, task=""):
         if human_goal_status:
             hint="A"
         else:
@@ -72,14 +72,14 @@ class APITrust2:
         # repeat = "yes"
         # repeat = 'No'
         # #count = count +1
-        self.get_node_values(hint, goal_status)
+        self.get_node_values(hint, goal_status, task)
             
             
         print("The experiment has ended. Thank you for your participation.")
         self.robot.save_beliefs()
         
 
-    def get_node_values(self, hint, goal_status):
+    def get_node_values(self, hint, goal_status, task):
         informer = self.user
         outputs={'informant_belief': {'A': 0, 'B':0 }, 'informant_action': {'A': 0, 'B':0 },
                  'robot_belief': {'A': 0, 'B':0 }, 'robot_action': {'A': 0, 'B':0 }}
@@ -104,7 +104,7 @@ class APITrust2:
         print(trust_p, outputs, "fffff", p)
         self.trust = trust_p
         self.p=p
-        self.data = pd.concat([self.data, pd.DataFrame([[outputs['robot_belief']["A"], outputs['robot_action']["A"],
+        self.data = pd.concat([self.data, pd.DataFrame([[task,outputs['robot_belief']["A"], outputs['robot_action']["A"],
         outputs['informant_belief']["A"],outputs['informant_action']["A"],\
         outputs['robot_belief']["B"],outputs['robot_action']["B"], \
         outputs['informant_belief']["B"],outputs['informant_action']["B"], self.robot_opinion,
