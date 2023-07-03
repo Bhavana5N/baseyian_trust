@@ -413,7 +413,7 @@ class BeliefNetwork:
 
     # Returns the reliability of the network as a real value between -1 and +1. Negative values denote degrees of
     # unreliability and vice versa.
-    def get_reliability(self):
+    def get_reliability(self, goal_status):
         # Evaluate the trustworthiness of the network (as for Belief Estimation)
         outputs={'informant_belief': {'A': 0, 'B':0 }, 'informant_action': {'A': 0, 'B':0 },
                  'robot_belief': {'A': 0, 'B':0 }, 'robot_action': {'A': 0, 'B':0 }}
@@ -436,11 +436,11 @@ class BeliefNetwork:
                 outputs[node.to_dict()['variable']['name']][potential.entries[1].get_entry_keys()[0][1]] = potential.entries[1].get_kv()[1]#, help(node))
         
        # be_query = self.join_tree.query(self.bn, ['informant_action'], {'robot_belief':'A', 'robot_action':'A'})
-        x = outputs['informant_action']['A']
+        x = outputs['informant_action'][goal_status]
         # Scale it to [-1, +1]
         a = -1
         b = 1
         min = 0
-        max = 0.75
+        max = 0.99
         
         return ((b - a) * (x - min)) / (max - min) + a
