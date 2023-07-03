@@ -107,7 +107,7 @@ class BeliefNetwork:
         #     name=self.name
         # )
         # print(self.bn)
-        print(self.parameters )
+        #print(self.parameters )
         def probs(data, child, parent1=None, parent2=None):
             if parent1==None:
                 # Calculate probabilities
@@ -122,7 +122,7 @@ class BeliefNetwork:
                         prob=pd.crosstab([data[parent1],data[parent2]],data[child], margins=False, normalize='index').sort_index().to_numpy().reshape(-1).tolist()
             else: print("Error in Probability Frequency Calculations")
             return prob  
-        print(self.parameters["Xi"], self.parameters["Yr"], self.parameters["Yi"], self.parameters["Xr"])
+       # print(self.parameters["Xi"], self.parameters["Yr"], self.parameters["Yi"], self.parameters["Xr"])
         y_r_p =[]
         for i in self.parameters["Yr"]:
             if type(i) is list:
@@ -135,7 +135,7 @@ class BeliefNetwork:
                 y_i_p.extend(i)
             else:
                 y_i_p.append(i)
-        print(self.parameters["Xi"], self.parameters["Yi"])
+        #print(self.parameters["Xi"], self.parameters["Yi"])
         XI = BbnNode(Variable(0, 'informant_belief', ['A', 'B']), self.parameters["Xi"])
         YI = BbnNode(Variable(1, 'informant_action', ['A', 'B']), y_i_p)
         XR = BbnNode(Variable(2, 'robot_belief', ['A', 'B']), self.parameters["Xr"])
@@ -152,7 +152,7 @@ class BeliefNetwork:
             .add_edge(Edge(YI, YR, EdgeType.DIRECTED))
 
         # Convert the BBN to a join tree
-        print(self.bn)
+        #print(self.bn)
         self.join_tree = InferenceController.apply(self.bn)
         # Set node positions
         pos = {0: (-1, 2), 1: (-1, 0.5), 2: (1, 0.5), 3: (0, -1)}
@@ -212,7 +212,7 @@ class BeliefNetwork:
                     outputs[node.to_dict()['variable']['name']][potential.entries[0].get_entry_keys()[0][1]] = potential.entries[0].get_kv()[1]#, help(node))
 
                     outputs[node.to_dict()['variable']['name']][potential.entries[1].get_entry_keys()[0][1]] = potential.entries[1].get_kv()[1]#, help(node))
-            print(outputs)
+            #print(outputs)
             if outputs['robot_action']['A'] > outputs['robot_action']['B']:
                 return 'A'
             else:
@@ -251,7 +251,7 @@ class BeliefNetwork:
                     outputs[node.to_dict()['variable']['name']][potential.entries[0].get_entry_keys()[0][1]] = potential.entries[0].get_kv()[1]#, help(node))
 
                     outputs[node.to_dict()['variable']['name']][potential.entries[1].get_entry_keys()[0][1]] = potential.entries[1].get_kv()[1]#, help(node))
-            print(outputs)
+            #print(outputs)
             
            # outputs = self.join_tree.query(robot_belief=robot_knowledge, robot_action=robot_knowledge)
             # Duple: [informant_belief , informant_action]
@@ -440,6 +440,7 @@ class BeliefNetwork:
         # Scale it to [-1, +1]
         a = -1
         b = 1
-        min = 0.25
+        min = 0
         max = 0.75
+        
         return ((b - a) * (x - min)) / (max - min) + a
